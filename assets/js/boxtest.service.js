@@ -11,18 +11,6 @@
       return {
         micUp : function() {
             
-        },
-        micDown : function() {
-            
-        },
-        mute : function() {
-            
-        },
-        volumeUp : function() {
-            
-        },
-        volumeDown : function() {
-            
         }
       };
 

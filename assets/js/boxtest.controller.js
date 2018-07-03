@@ -29,22 +29,6 @@
 		vm.micUp = function() {
 			boxtestService.micUp();
 		};
-
-		vm.micDown = function() {
-			boxtestService.micDown();
-		};
-
-		vm.mute = function() {
-			boxtestService.mute();
-		};
-
-		vm.volumeUp = function() {
-			boxtestService.volumeUp();
-		};
-
-		vm.volumeDown = function() {
-			boxtestService.volumeDown();
-		};
 		
 	}
 })(); 

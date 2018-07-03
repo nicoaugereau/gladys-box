@@ -1,5 +1,3 @@
-var install = require('./lib/install.js');
-var uninstall = require('./lib/uninstall.js');
 
 module.exports = function(sails) {
 
@@ -8,8 +6,9 @@ module.exports = function(sails) {
     });
 
 	return {
-		install: install,
-		uninstall: uninstall,
-		box:box
+		defaults: require('./lib/defaults.js'),
+		configure: require('./lib/configure')(sails),
+      	initialize: require('./lib/initialize')(sails),
+		uninstall: require('./lib/uninstall.js')
 	};
 };
